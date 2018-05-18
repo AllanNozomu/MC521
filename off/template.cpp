@@ -33,6 +33,7 @@ typedef vector<vector<int>> vvi;
 #define all(container) container.begin(), container.end()
 
 void print_pair(const pii & par){
+    if (!debug) return;
     cout << "(" << par.first << spc << par.second << ")" << spc;
 }
 
