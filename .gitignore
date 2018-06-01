@@ -2,3 +2,9 @@ in*
 MC521.code-workspace
 out*
 *.out
+
+Makefile
+!off/Makefile
+
+template.cpp
+!off/template.cpp
