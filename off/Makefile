@@ -18,3 +18,7 @@ I:
 	g++ -std=c++11 I.cpp
 J:
 	g++ -std=c++11 J.cpp
+K:
+	g++ -std=c++11 K.cpp
+L:
+	g++ -std=c++11 L.cpp

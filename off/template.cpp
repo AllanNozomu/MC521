@@ -24,13 +24,22 @@ typedef pair<int,int> pii;
 typedef pair<ll, ll> pll;
 
 typedef vector<int> vi;
-typedef vector<pii> vii;
+typedef vector<string> vs;
 typedef vector<ll> vl;
+typedef vector<pii> vii;
 typedef vector<vector<int>> vvi;
+typedef vector<vector<pii>> vvii;
 
 #define mkp(a,b) make_pair(a,b)
 #define spc " "
 #define all(container) container.begin(), container.end()
+
+clock_t t = clock();
+
+void check_time(){
+    t = clock() - t;
+    cout << "Time taken " << ((double)t)/CLOCKS_PER_SEC << "s" << endl ;
+}
 
 void print_pair(const pii & par){
     if (!debug) return;
